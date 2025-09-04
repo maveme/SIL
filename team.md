@@ -51,6 +51,6 @@ permalink: /team/
   </article>
   {% endfor %}
   </div>
-
+{% endif %}
 
 
