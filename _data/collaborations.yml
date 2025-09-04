@@ -1,0 +1,10 @@
+- name: KNVB (Royal Dutch Football Association)
+  description: Collaborations on player development analytics and officiating support.
+  website: https://www.knvb.nl/
+  logo: /assets/img/partners/knvb.png
+- name: Ajax
+  description: Applied research on talent identification and training optimization.
+  website: https://www.ajax.nl/
+  logo: /assets/img/partners/ajax.png
+
+

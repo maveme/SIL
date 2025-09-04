@@ -1,0 +1,10 @@
+- name: Intelligent Player Tracking
+  period: 2024–2026
+  role: PI
+  objectives: Develop robust multi-camera tracking for elite competitions.
+  outcomes: Open dataset and baseline models.
+  links:
+    - label: Project page
+      url: https://example.com/project/tracking
+
+

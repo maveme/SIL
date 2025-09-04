@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo" class="logo">{% endif %}
+      <span>{{ site.title }}</span>
+    </a>
+    <nav>
+      <input id="nav-toggle" type="checkbox" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">&#9776;</label>
+      <ul class="menu">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/research-areas/' | relative_url }}">Research Areas</a></li>
+        <li><a href="{{ '/team/' | relative_url }}">Team</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/news/' | relative_url }}">News & Events</a></li>
+        <li><a href="{{ '/collaborations/' | relative_url }}">Collaborations</a></li>
+        <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+

@@ -1,0 +1,16 @@
+- name: SIL Sports Vision Dataset
+  type: Dataset
+  description: Annotated broadcast clips with player and ball positions.
+  links:
+    - label: Dataset
+      url: https://example.com/datasets/sil-vision
+    - label: Paper
+      url: https://example.com/papers/sil-vision
+- name: Tactics Explorer
+  type: Software
+  description: An interactive tool for spatiotemporal tactical analysis.
+  links:
+    - label: Code
+      url: https://github.com/sil-lab/tactics-explorer
+
+

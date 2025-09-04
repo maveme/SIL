@@ -1,0 +1,14 @@
+- name: Computer Vision for Sports
+  tagline: Player and ball tracking, pose estimation, event detection
+  description: We design robust vision models for real-world broadcast and training data to extract actionable spatiotemporal insights.
+  keywords: [tracking, pose estimation, event detection, broadcast analysis]
+- name: Machine Learning for Performance
+  tagline: Predictive and causal modeling for athlete and team performance
+  description: From forecasting and counterfactuals to interpretable models that support coaching and tactical decisions.
+  keywords: [forecasting, causal inference, explainability, optimization]
+- name: Human-Centered AI & Fairness
+  tagline: Trustworthy systems to assist coaches, referees, and athletes
+  description: We study usability, transparency, and fairness of AI in sports, focusing on human-AI collaboration.
+  keywords: [explainable AI, fairness, HCI, sports officiating]
+
+

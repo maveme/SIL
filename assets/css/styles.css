@@ -1,0 +1,66 @@
+/* Base typography and layout */
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Merriweather", Georgia, serif;
+  --text: #111;
+  --muted: #555;
+  --bg: #fff;
+  --accent: #0061ff;
+  --maxw: 1024px;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: var(--font-sans); color: var(--text); background: var(--bg); line-height: 1.65; }
+
+.container { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 1rem; }
+
+h1, h2, h3 { line-height: 1.25; margin: 1.6rem 0 0.8rem; font-weight: 700; }
+h1 { font-size: clamp(1.8rem, 2.5vw + 1rem, 2.6rem); }
+h2 { font-size: clamp(1.4rem, 1.8vw + 0.8rem, 2rem); }
+h3 { font-size: clamp(1.2rem, 1.2vw + 0.8rem, 1.4rem); }
+p, li { font-size: 1.05rem; color: var(--text); }
+.muted { color: var(--muted); }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header and nav */
+.site-header { border-bottom: 1px solid #eee; background: #fafafa; }
+.site-header .nav { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 0; }
+.brand { display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 800; color: inherit; }
+.brand .logo { height: 36px; width: auto; }
+
+nav { position: relative; }
+nav .menu { list-style: none; margin: 0; padding: 0; display: flex; gap: 0.8rem; }
+nav .menu a { padding: 0.4rem 0.6rem; border-radius: 6px; }
+nav .menu a:hover { background: #eef4ff; text-decoration: none; }
+nav .hamburger { display: none; cursor: pointer; font-size: 1.6rem; padding: 0.2rem 0.5rem; }
+nav input#nav-toggle { display: none; }
+
+/* Responsive nav */
+@media (max-width: 860px) {
+  nav .hamburger { display: inline-block; }
+  nav .menu { position: absolute; right: 0; top: 100%; background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 0.6rem; display: none; flex-direction: column; min-width: 240px; }
+  nav input#nav-toggle:checked ~ .menu { display: flex; }
+}
+
+/* Footer */
+.site-footer { border-top: 1px solid #eee; margin-top: 3rem; padding: 1.5rem 0; font-size: 0.95rem; color: var(--muted); }
+.site-footer a { color: inherit; text-decoration: underline; }
+
+/* Utilities */
+.grid { display: grid; gap: 1.2rem; }
+.grid.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 860px) {
+  .grid.cols-2, .grid.cols-3, .grid.cols-4 { grid-template-columns: 1fr; }
+}
+
+.card { border: 1px solid #eee; border-radius: 10px; padding: 1rem; background: #fff; }
+.chip { display: inline-block; padding: 0.2rem 0.5rem; border-radius: 999px; background: #eef4ff; color: #124eda; font-size: 0.85rem; }
+
+.lead { font-size: 1.2rem; }
+
+

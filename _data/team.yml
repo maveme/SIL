@@ -1,0 +1,10 @@
+- name: Mauricio (PI)
+  role: Assistant Professor, Head of Lab
+  expertise: AI for Sports, Computer Vision, Machine Learning
+  email: mauricio@vu.nl
+  website: https://mauricio.example.com
+  scholar: https://scholar.google.com/citations?user=EXAMPLE
+  linkedin: https://www.linkedin.com/in/mauricio-example/
+  photo: /assets/img/team/mauricio.jpg
+
+
