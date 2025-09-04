@@ -1,10 +1,10 @@
-- name: Mauricio (PI)
+- name: Mauricio Verano Merino (PI)
   role: Assistant Professor, Head of Lab
-  expertise: AI for Sports, Computer Vision, Machine Learning
-  email: mauricio@vu.nl
-  website: https://mauricio.example.com
-  scholar: https://scholar.google.com/citations?user=EXAMPLE
-  linkedin: https://www.linkedin.com/in/mauricio-example/
+  expertise: AI for Sports, Data Analytics, Computer Vision, Machine Learning
+  email: m.verano.merono@vu.nl
+  website: https://maveme.github.io
+  scholar: https://scholar.google.com/citations?user=orKtcQ4AAAAJ&hl=en&oi=ao
+  linkedin: https://www.linkedin.com/in/mauricioverano
   photo: /assets/img/team/mauricio.jpg
 
 
