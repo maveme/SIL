@@ -11,9 +11,9 @@ Static site built with Jekyll and deployed via GitHub Pages.
    ```
 3. Run the development server:
    ```bash
-   bundle exec jekyll serve --livereload
+   bundle exec jekyll serve --livereload --config _config.yml,_config.dev.yml
    ```
-4. Open `http://localhost:4000/SIL/` (or `/` if `baseurl` is empty).
+4. Open `http://localhost:4000/`.
 
 ## Deployment (GitHub Pages)
 
