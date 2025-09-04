@@ -1,15 +1,11 @@
-- name: Vantage
-  description: Collaborations on computer vision pipelines for player development analytics.
-  website: http://your-vantage.com
-  logo: /assets/img/partners/vantage.jpeg
+- name: Borussia Dortmund
+  description: Collaborations on developing computer vision pipelines for collecting tracking data and developing models for evaluating players scanning behavior and body positioning.
+  website: https://www.bvb.de
+  logo: /assets/img/partners/bvb-logo.svg
 - name: Almere City FC
   description: Collaborations on developing data analytics pipelines for match analysis.
   website: https://almerecity.nl
   logo: /assets/img/partners/almere.png
-- name: Forward.Football
-  description: Collaborations on developing data collection pipelines for tracking and event data from video footage.
-  website: https://forward.football
-  logo: /assets/img/partners/ff.png
 - name: FC Den Bosch
   description: Collaborations on developing computer vision pipelines for collecting tracking data.
   website: https://www.fcdenbosch.nl
@@ -18,6 +14,19 @@
   description: Collaborations on developing computer vision pipelines for collecting tracking data in field hockey.
   website: https://www.pinoke.nl
   logo: /assets/img/partners/pinoke.png
+- name: Vantage
+  description: Collaborations on computer vision pipelines for player development analytics. We developed developed models for scanning behavior and body positioning.
+  website: http://your-vantage.com
+  logo: /assets/img/partners/vantage.jpeg
+- name: Forward.Football
+  description: Collaborations on developing data collection pipelines for tracking and event data from video footage.
+  website: https://forward.football
+  logo: /assets/img/partners/ff.png
+- name: Human Movement Sciences Department, VU Amsterdam
+  description: Collaborations on different research projects involving sports and AI.
+  website: https://www.human-movement-sciences.nl
+  logo: /assets/img/partners/vu.png
+
 
 # - name: KNVB (Royal Dutch Football Association)
 #   description: Collaborations on player development analytics and officiating support.
