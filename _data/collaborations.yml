@@ -1,10 +1,31 @@
-- name: KNVB (Royal Dutch Football Association)
-  description: Collaborations on player development analytics and officiating support.
-  website: https://www.knvb.nl/
-  logo: /assets/img/partners/knvb.png
-- name: Ajax
-  description: Applied research on talent identification and training optimization.
-  website: https://www.ajax.nl/
-  logo: /assets/img/partners/ajax.png
+- name: Vantage
+  description: Collaborations on computer vision pipelines for player development analytics.
+  website: http://your-vantage.com
+  logo: /assets/img/partners/vantage.png
+- name: Almere City FC
+  description: Collaborations on developing data analytics pipelines for match analysis.
+  website: https://almerecity.nl
+  logo: /assets/img/partners/almere.png
+- name: Forward.Football
+  description: Collaborations on developing data collection pipelines for tracking and event data from video footage.
+  website: https://forward.football
+  logo: /assets/img/partners/forward.png
+- name: FC Den Bosch
+  description: Collaborations on developing computer vision pipelines for collecting tracking data.
+  website: https://www.fcdenbosch.nl
+  logo: /assets/img/partners/denbosch.png
+- name: Pinoké
+  description: Collaborations on developing computer vision pipelines for collecting tracking data in field hockey.
+  website: https://www.pinoke.nl
+  logo: /assets/img/partners/pinoke.png
+
+# - name: KNVB (Royal Dutch Football Association)
+#   description: Collaborations on player development analytics and officiating support.
+#   website: https://www.knvb.nl/
+#   logo: /assets/img/partners/knvb.png
+# - name: Ajax
+#   description: Applied research on talent identification and training optimization.
+#   website: https://www.ajax.nl/
+#   logo: /assets/img/partners/ajax.png
 
 
