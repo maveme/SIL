@@ -1,7 +1,7 @@
 - name: Vantage
   description: Collaborations on computer vision pipelines for player development analytics.
   website: http://your-vantage.com
-  logo: /assets/img/partners/vantage.png
+  logo: /assets/img/partners/vantage.jpeg
 - name: Almere City FC
   description: Collaborations on developing data analytics pipelines for match analysis.
   website: https://almerecity.nl
@@ -9,7 +9,7 @@
 - name: Forward.Football
   description: Collaborations on developing data collection pipelines for tracking and event data from video footage.
   website: https://forward.football
-  logo: /assets/img/partners/forward.png
+  logo: /assets/img/partners/ff.png
 - name: FC Den Bosch
   description: Collaborations on developing computer vision pipelines for collecting tracking data.
   website: https://www.fcdenbosch.nl
