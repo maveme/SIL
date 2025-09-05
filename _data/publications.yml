@@ -13,5 +13,3 @@
   We achieve 75% accuracy on real-world match footage, demonstrating the potential to reduce manual annotation in performance analytics.
   However, the wrong body orientation estimations were due to issues in the player and ball detection and the pass detection events, and not to the body orientation model.
   Therefore, we believe that the proposed pipeline can assist coaching staff to semi-automatically determine body orientation in professional football. However, more research is required to improve the ball and players' detection.
-
-
