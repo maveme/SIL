@@ -32,6 +32,7 @@ permalink: /team/
 
 {% assign alumni = site.data.team_alumni | default: [] %}
 {% if alumni.size > 0 %}
+<p class="muted lead">Former Members</p>
 <div class="grid cols-3">
   {% for person in alumni %}
   <article class="card">
