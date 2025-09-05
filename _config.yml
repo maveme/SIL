@@ -1,7 +1,7 @@
 title: "Sports Intelligence Lab"
 description: "Research at the intersection of AI and Sports at Vrije Universiteit Amsterdam."
-url: "https://mauricio.github.io/SIL" # Replace with your GitHub Pages domain if different
-baseurl: "SIL" # Replace if repository name differs
+url: "https://sportsintelligencelab.com" # Replace with your GitHub Pages domain if different
+baseurl: "" # Replace if repository name differs
 
 theme: minima
 
