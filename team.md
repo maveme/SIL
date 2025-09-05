@@ -11,7 +11,7 @@ permalink: /team/
   {% for person in people %}
   <article class="card">
     {% if person.photo %}
-      <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}" style="width:100%; height:310px; border-radius:8px;">
+      <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}" style="width:100%; height:auto; border-radius:8px;">
     {% endif %}
     <h3>{{ person.name }}</h3>
     <p class="muted">{{ person.role }}</p>
