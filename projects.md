@@ -12,6 +12,7 @@ permalink: /projects/
   <article class="card">
     <h3>{{ pr.name }}</h3>
     <p class="muted">{{ pr.period }}{% if pr.role %} · {{ pr.role }}{% endif %}</p>
+    <p class="muted">{{ pr.team }}{% if pr.team %} · {{ pr.team }}{% endif %}</p>
     {% if pr.objectives %}<p>{{ pr.objectives }}</p>{% endif %}
     {% if pr.outcomes %}<p><strong>Outcomes:</strong> {{ pr.outcomes }}</p>{% endif %}
     {% if pr.links %}
