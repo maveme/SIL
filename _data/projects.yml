@@ -17,6 +17,6 @@
 
 - name: Automated Player Tracking in Field Hockey: Baseline Comparison
   period: 2024–2025
-  # objectives: To examine the relationship between goalkeepers’ preparatory posture, stance width after sidestepping, and timing variables with penalty save success in real games.
-  # outcomes: No significant predictors of saves were found, but goalkeepers adopted a wider preparatory stance than in lab settings and typically decreased stance width after sidestepping, contrasting with laboratory findings.
+  objectives: 
+  outcomes:
   team: Ezra Eijsenring, Mauricicio Verano Merino
