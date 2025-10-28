@@ -31,7 +31,7 @@ social:
   links:
     - "https://www.linkedin.com/school/vu-university-amsterdam/"
 
-logo: /assets/img/logo.png
+logo: /assets/img/logo.jpeg
 
 exclude:
   - README.md
