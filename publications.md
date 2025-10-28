@@ -1,29 +1,27 @@
 ---
 layout: page
 title: Publications
+subtitle: Selected papers and presentations
 permalink: /publications/
 ---
 
 {% assign pubs = site.data.publications | default: [] %}
 {% if pubs.size > 0 %}
-<div class="content">
+<div class="grid cols-1">
   {% for p in pubs %}
   <article class="card">
-    <h3>
-      {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
-    </h3>
-    <p class="muted">
-      {% if p.authors %}{{ p.authors }} · {% endif %}
-      {% if p.venue %}{{ p.venue }}{% endif %}
-      {% if p.year %} · {{ p.year }}{% endif %}
-      {% if p.doi %} · <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">doi:{{ p.doi }}</a>{% endif %}
-    </p>
+    <h3>{{ p.title }}</h3>
+    <p class="muted">{{ p.authors }} — {{ p.venue }} ({{ p.year }})</p>
     {% if p.abstract %}<p>{{ p.abstract }}</p>{% endif %}
+    <p>
+      {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      {% if p.url %} {% if p.doi %}·{% endif %} <a href="{{ p.url }}" target="_blank" rel="noopener">Link</a>{% endif %}
+      {% if p.pdf %} · <a href="{{ p.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+      {% if p.code %} · <a href="{{ p.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+    </p>
   </article>
   {% endfor %}
 </div>
 {% else %}
-<p class="muted">Publication entries will appear here.</p>
+<p class="muted">Publications will appear here.</p>
 {% endif %}
-
-
