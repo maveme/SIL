@@ -13,7 +13,7 @@ Our mission is to bridge cutting-edge AI with real-world sports applications thr
 
 - **Research Areas**: From computer vision for player tracking to machine learning for tactical analysis.
 - **Projects**: Collaborative, applied research with national and international partners.
-- **Publications**: Peer-reviewed work at top venues in AI, data science, and sports analytics.
+<!-- - **Publications**: Peer-reviewed work at top venues in AI, data science, and sports analytics. -->
 - **Team**: A diverse group of faculty, researchers, and students.
 
 Stay up-to-date via our [News & Events]({{ '/news/' | relative_url }}), and reach out via [Contact]({{ '/contact/' | relative_url }}).

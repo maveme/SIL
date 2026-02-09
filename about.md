@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Us
-subtitle: History, mission, and vision
+subtitle: Mission, and vision
 permalink: /about/
 ---
 
