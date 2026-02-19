@@ -25,6 +25,11 @@
   objectives: To develop an automated computer vision pipeline for estimating player body orientation and pre-reception scanning behavior in football, reducing the need for manual video annotation. 
   outcomes: Achieved 75% accuracy in body orientation detection and established a foundational framework for automated scan counting, demonstrating the potential to significantly reduce manual analysis time in football performance analytics despite video resolution constraints.
   team: Sobhaan ul Husan, Mauricicio Verano Merino, and Eli Sarasola
+- name: 🏋️‍♀️ Classification of Movement Phases in Olympic Weightlifting Using Inertial Measurement Units 
+  period: 2024–2025
+  objectives: To develop an automated classification system for the sub-phases of the snatch and clean and jerk (C&J) using Inertial Measurement Units (IMUs) and machine learning algorithms.
+  outcomes: The provision of accurate, phase-specific performance metrics that enable coaches to mitigate injury risks and optimize athlete technique through data-driven feedback and longitudinal progression monitoring.
+  team: Sam Hartogs and Anil Yaman 
 - name: ⚽️ Paying for Popularity The Value of Online Attention in Soccer
   period: 2024–2025
   objectives: To analyze the relationship between online attention and the market values of professional soccer players using multi-platform sentiment and engagement data.
@@ -40,3 +45,8 @@
   objectives: To enhance a baseball batting virtual reality training environment by predicting batted ball velocities from bat swing data using machine learning and deep learning models.
   outcomes: Developed and integrated Bayesian ridge regression and multi-layer perceptron models that achieved comparable predictive accuracy to a physics-based heuristic baseline, validating the feasibility of AI-driven ball-bat collision modeling for improving realism and feedback in VR-based baseball training systems.
   team: Lloyd Nyarko, Daniel Müller, Mauricicio Verano Merino, David Mann
+- name: 🏋️‍♀️ Accessible Performance Analytics for Olympic Weightlifting based on Computer Vision 
+  period: 2023–2024
+  objectives: To design and validate a computer vision-based framework capable of extracting kinematic performance statistics from standard video recordings of Olympic weightlifting movements.
+  outcomes: A low-barrier, sensor-free analysis tool that provides athletes and coaches with objective performance data, removing the need for specialized hardware while maintaining the ability to monitor technique and progress.
+  team: Freek Cool and Anil Yaman 
