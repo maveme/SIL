@@ -10,7 +10,7 @@
   period: 2024–2025
   objectives: To examine the relationship between goalkeepers’ preparatory posture, stance width after sidestepping, and timing variables with penalty save success in real games.
   outcomes: No significant predictors of saves were found, but goalkeepers adopted a wider preparatory stance than in lab settings and typically decreased stance width after sidestepping, contrasting with laboratory findings.
-  team: Jaka Kuraj, Idsart Kingma, Mauricicio Verano Merino, and Rony Ibrahim
+  team: Jaka Kuraj, Idsart Kingma, Mauricio Verano Merino, and Rony Ibrahim
   # links:
     # - label: Project page
       # url: https://example.com/project/goalkeepers
@@ -19,12 +19,12 @@
   period: 2024–2025
   objectives: Design and evaluate an end-to-end multi-camera player tracking system for professional field hockey, establishing a performance baseline for automated tracking in the sport.
   outcomes: Developed a quantitative benchmark for field hockey player tracking, achieving a mean positional error of 1.94 m, RMS error of 2.07 m, and an F1-score of 5.0%, providing a foundation for future model specialization and accuracy improvements.
-  team: Ezra Eijsenring, Mauricicio Verano Merino
+  team: Ezra Eijsenring, Mauricio Verano Merino
 - name: ⚽️ Computer Vision-Based Automation of Football Performance Analytics Detecting Player Body Orientation and Scanning Behavior
   period: 2024–2025
   objectives: To develop an automated computer vision pipeline for estimating player body orientation and pre-reception scanning behavior in football, reducing the need for manual video annotation. 
   outcomes: Achieved 75% accuracy in body orientation detection and established a foundational framework for automated scan counting, demonstrating the potential to significantly reduce manual analysis time in football performance analytics despite video resolution constraints.
-  team: Sobhaan ul Husan, Mauricicio Verano Merino, and Eli Sarasola
+  team: Sobhaan ul Husan, Mauricio Verano Merino, and Eli Sarasola
 - name: 🏋️‍♀️ Classification of Movement Phases in Olympic Weightlifting Using Inertial Measurement Units 
   period: 2024–2025
   objectives: To develop an automated classification system for the sub-phases of the snatch and clean and jerk (C&J) using Inertial Measurement Units (IMUs) and machine learning algorithms.
@@ -34,17 +34,17 @@
   period: 2024–2025
   objectives: To analyze the relationship between online attention and the market values of professional soccer players using multi-platform sentiment and engagement data.
   outcomes: Demonstrated that online attention metrics improved market value prediction accuracy by up to 18% (R² increase), with peaks in mentions and positive sentiment significantly correlating with subsequent value rises, revealing the predictive and explanatory power of social media and news dynamics in player valuation.
-  team: Vivian Witting, Mauricicio Verano Merino
+  team: Vivian Witting, Mauricio Verano Merino
 - name: ⚽️ Transfer Learning for Semi-Supervised Football Event Classification Using Tracking Data
   period: 2024–2025
   objectives: To develop a semi-supervised transfer learning framework for accurate classification of football on-pitch events from scarce and imbalanced tracking data.
   outcomes: Improved event classification performance with increases of up to 15% in F1-score, 12% in precision, and 10% in AUC across both majority and minority classes by integrating latent-space oversampling and domain-adapted pretraining on high- and low-quality tracking datasets.
-  team: Minh Duc Nguyen, Mauricicio Verano Merino
+  team: Minh Duc Nguyen, Mauricio Verano Merino
 - name: 🥎 Machine and deep learning models for batted ball velocity prediction in virtual environments
   period: 2023–2024
   objectives: To enhance a baseball batting virtual reality training environment by predicting batted ball velocities from bat swing data using machine learning and deep learning models.
   outcomes: Developed and integrated Bayesian ridge regression and multi-layer perceptron models that achieved comparable predictive accuracy to a physics-based heuristic baseline, validating the feasibility of AI-driven ball-bat collision modeling for improving realism and feedback in VR-based baseball training systems.
-  team: Lloyd Nyarko, Daniel Müller, Mauricicio Verano Merino, David Mann
+  team: Lloyd Nyarko, Daniel Müller, Mauricio Verano Merino, David Mann
 - name: 🏋️‍♀️ Accessible Performance Analytics for Olympic Weightlifting based on Computer Vision 
   period: 2023–2024
   objectives: To design and validate a computer vision-based framework capable of extracting kinematic performance statistics from standard video recordings of Olympic weightlifting movements.
